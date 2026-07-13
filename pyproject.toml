@@ -1,0 +1,24 @@
+[project]
+name = "letras_musicas"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "pedro17-dev", email = "pedrohrodriguesdesouza@gmail.com"}
+]
+requires-python = ">=3.14"
+dependencies = [
+    "requests (>=2.34.2,<3.0.0)",
+    "streamlit (>=1.59.2,<2.0.0)"
+]
+
+[tool.poetry]
+package-mode = false
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[dependency-groups]
+dev = [
+    "ipykernel (>=7.3.0,<8.0.0)"
+]
