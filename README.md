@@ -12,8 +12,6 @@ Acesse a aplicação:
 
 🔗https://letras-musicas.streamlit.app/
 
-*(Substitua pelo link do seu app publicado no Streamlit Cloud)*
-
 ---
 
 ## 📌 Funcionalidades
