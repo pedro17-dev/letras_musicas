@@ -1,0 +1,29 @@
+/* Centraliza o conteúdo da página */
+.block-container {
+    max-width: 550px;
+    margin: auto;
+    padding-top: 2rem;
+}
+
+/* Fundo */
+.stApp {
+    background: #121212;
+}
+
+/* Título */
+h1 {
+    color: #FFFFFF;
+}
+
+/* Inputs */
+.stTextInput input {
+    border-radius: 10px;
+}
+
+/* Botão */
+.stButton > button {
+    color: #1DB954;
+    background-color: #191414;
+    height: 20px;
+    width: 150px;
+}
